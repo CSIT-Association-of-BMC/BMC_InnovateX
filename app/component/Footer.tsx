@@ -134,7 +134,7 @@ const Footer = () => {
                 Email: innovatex@csitabmc.com
               </p>
               <p className="text-gray-100 text-sm mt-2">
-                Phone: +977-9869144346
+                Phone: +977-9841148149
               </p>
             </div>
           </div>
