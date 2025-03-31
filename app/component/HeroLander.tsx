@@ -1,4 +1,5 @@
 import { LeftDots, RightDots } from "@/components/custom/Dots";
+import Mascot from "@/components/custom/Mascot";
 import Image from "next/image";
 
 const HeroLander = () => {
@@ -97,15 +98,7 @@ const HeroLander = () => {
         />
       </div>
       <div className="absolute bottom-0 right-0">
-        <Image
-          src={
-            "https://res.cloudinary.com/dtr4vo1dy/image/upload/v1742566659/mascot_to157e.png"
-          }
-          alt="mascot"
-          width={350}
-          height={350}
-          className="w-[200px] h-[200px] md:w-[350px] md:h-[350px]"
-        />
+        <Mascot />
       </div>
 
       {/* Dots */}

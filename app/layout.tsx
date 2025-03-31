@@ -3,7 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Footer from "./component/Footer";
 import Navbar from "./component/Nav";
-import { AdPopup } from "./component/AdPopup";
+// import { AdPopup } from "./component/AdPopup";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -58,7 +58,7 @@ export default function RootLayout({
       </head>
       <body className={`${poppins.className} antialiased`}>
         <Navbar />
-        <AdPopup />
+        {/* <AdPopup /> */}
         {children}
         <Footer />
       </body>
