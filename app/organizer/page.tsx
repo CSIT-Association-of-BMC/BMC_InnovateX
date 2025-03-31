@@ -25,8 +25,8 @@ export default function AboutPage() {
 
       {/* Organizing Body */}
       <div className="mb-16">
-        <div className="bg-gray-50 p-8 rounded-xl mx-auto">
-          <p className="text-gray-600 leading-relaxed mb-6">
+        <div className="bg-gray-50 py-8 px-2 md:px-8 rounded-xl mx-auto">
+          <p className="text-gray-600 leading-relaxed mb-6 text-justify">
             <strong>CSIT Association of BMC</strong> is a non-profitable
             organization inside Butwal Multiple Campus created for the welfare
             of CSIT Students by the CSIT students and operating actively since
@@ -103,7 +103,7 @@ export default function AboutPage() {
 
       {/* Our History */}
       <div className="mb-16">
-        <div className="bg-gray-50 p-8 rounded-xl">
+        <div className="bg-gray-50 py-8  px-2 md:px-8 rounded-xl">
           <h2 className="text-3xl font-bold text-center mb-8">Our Journey</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
