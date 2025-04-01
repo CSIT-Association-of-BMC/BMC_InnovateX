@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-     "postinstall": "prisma generate"
+    "postinstall": "prisma generate"
   },
   "dependencies": {
+    "@microsoft/clarity": "^1.0.0",
     "@prisma/client": "^6.5.0",
     "@radix-ui/react-accordion": "^1.2.3",
     "@radix-ui/react-dialog": "^1.1.6",

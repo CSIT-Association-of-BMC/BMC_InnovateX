@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "./component/Footer";
 import Navbar from "./component/Nav";
 import NextTopLoader from "nextjs-toploader";
+import Clarity from "@microsoft/clarity";
 // import { AdPopup } from "./component/AdPopup";
 
 const poppins = Poppins({
@@ -50,6 +51,8 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const clarityProjectId = process.env.CLARITY_PROJECT_ID as string;
+  Clarity.init(clarityProjectId);
   return (
     <html lang="en">
       <head>
