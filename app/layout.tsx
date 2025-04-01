@@ -5,6 +5,8 @@ import Footer from "./component/Footer";
 import Navbar from "./component/Nav";
 import NextTopLoader from "nextjs-toploader";
 import Clarity from "@microsoft/clarity";
+import GoogleAnalytics from "@/components/custom/GoogleAnalytics";
+import MicrosoftClarity from "@/components/custom/MicrosoftClarity";
 // import { AdPopup } from "./component/AdPopup";
 
 const poppins = Poppins({
@@ -57,6 +59,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta />
+        <GoogleAnalytics />
+        <MicrosoftClarity />
       </head>
       <body className={`${poppins.className} antialiased`}>
         <Navbar />
