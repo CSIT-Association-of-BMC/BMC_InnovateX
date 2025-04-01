@@ -1,5 +1,5 @@
+// import CountdownTimer from "@/components/custom/CountdownTimer";
 import { LeftDots, RightDots } from "@/components/custom/Dots";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -24,7 +24,7 @@ const HeroLander = () => {
                 color="white"
                 textAnchor="middle"
                 fontSize="30"
-                className="text-[40px]  md:text-[70px] lg:text-[90px] py-20 font-extrabold text-white"
+                className="text-[40px]  md:text-[70px] lg:text-[90px] py-16 font-extrabold text-white"
                 fill="white"
                 dominantBaseline="end"
               >
@@ -37,22 +37,12 @@ const HeroLander = () => {
             Think Big, Innovate Bigger
           </h1>
         </div>
-
-        {/* <Link href="https://forms.gle/aEWGMtuE9ukRQHtv7" target="_blank">
-          <button
-            className="border-2 border-white text-lg text-white py-2 px-6 transition-all duration-300 ease-in-out cursor-pointer 
-  hover:bg-white hover:text-[#008FAD] hover:scale-105 rounded-md hover:shadow-lg shadow-md"
-            disabled
-          >
-            Registration Opening Soon
+        <Link href="https://forms.gle/aEWGMtuE9ukRQHtv7" target="_blank">
+          <button className="border-2 border-white text-lg  py-2 px-6 transition-all duration-300 ease-in-out  bg-gray-100 text-[#008FAD] rounded-md shadow-md cursor-pointer">
+            Register now{" "}
           </button>
-        </Link> */}
-        <button
-          className="border-2 border-white text-lg  py-2 px-6 transition-all duration-300 ease-in-out  bg-gray-100 text-[#008FAD] rounded-md shadow-md"
-          disabled
-        >
-          Registration Opening Soon
-        </button>
+        </Link>
+        {/* <CountdownTimer /> */}
       </div>
 
       {/* Background Images */}
