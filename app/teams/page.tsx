@@ -14,10 +14,6 @@ type TeamMember = {
 
 const ocMembers: TeamMember[] = [
   {
-    name: "Pratik Aryal",
-    linkedin: "pratik-aryal-256a79289",
-  },
-  {
     name: "Sangit Gyawali",
     linkedin: "sangitgyawali",
   },
@@ -69,6 +65,10 @@ const ocMembers: TeamMember[] = [
   {
     name: "Aayush Chalise",
     linkedin: "aayush-chalise-a94b522bb/",
+  },
+  {
+    name: "Dipendra Hamal Thakuri",
+    linkedin: "",
   },
 ];
 
@@ -246,7 +246,7 @@ export default function Teams() {
           </section>
         </div>
 
-        <div className="w-full gap-2 px-8 sm:px-0 gap-y-8 grid md:grid-cols-4 ">
+        <div className="w-full ">
           <section className="rounded-xl col-span-3 overflow-hidden">
             <div className="text-center py-4">
               <h3 className="inline-block text-lg font-semibold text-gray-700 px-20 py-1.5 bg-white rounded-full shadow-sm border border-gray-100">
@@ -255,7 +255,7 @@ export default function Teams() {
               </h3>
             </div>
             <div className="px-4  sm:px-6 pb-6">
-              <div className="grid grid-cols-1 sm:grid-cols-3  gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-8 sm:px-0 gap-10">
                 <MemberCard
                   member={{
                     name: "Kritan Aryal",
@@ -274,7 +274,7 @@ export default function Teams() {
                       "https://lmnstrirupgjxplzedki.supabase.co/storage/v1/object/public/photos//krishna%20jaiswal.jpeg",
                     linkedin:
                       "https://www.linkedin.com/in/krishnakumarjaiswal/",
-                    phone: "9863173473",
+                    phone: "9814415470",
                   }}
                 />
                 <MemberCard
@@ -285,6 +285,16 @@ export default function Teams() {
                       "https://lmnstrirupgjxplzedki.supabase.co/storage/v1/object/public/photos//KARUNA_lfuxdb.webp",
                     linkedin: "karuna-pyakurel-abbb172a8",
                     phone: "9867385552",
+                  }}
+                />
+                <MemberCard
+                  member={{
+                    name: "Pratik Aryal",
+                    role: "Logistics | Co Lead",
+                    photo:
+                      "https://lmnstrirupgjxplzedki.supabase.co/storage/v1/object/public/photos//pratik.jpg",
+                    linkedin: "pratik-aryal-256a79289",
+                    phone: "9845455112",
                   }}
                 />
               </div>

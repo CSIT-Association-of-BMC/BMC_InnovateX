@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Link from "next/link";
 
 const faqData = [
   {
@@ -39,8 +40,33 @@ const faqData = [
   },
   {
     question: "How can I get more updates about the event?",
-    answer:
-      "No, all code must be written during the hackathon. However, you can use libraries and APIs.",
+    answer: (
+      <>
+        All updates regarding the event will be posted on our social media
+        handles. Follow us on{" "}
+        <Link
+          href="https://www.facebook.com/BMCInnovateX"
+          className="underline text-blue-600"
+        >
+          Facebook
+        </Link>
+        ,{" "}
+        <Link
+          href="https://www.instagram.com/bmcinnovatex/"
+          className="underline text-blue-600"
+        >
+          Instagram
+        </Link>
+        , and{" "}
+        <Link
+          href="https://www.linkedin.com/company/bmcinnovatex/"
+          className="underline text-blue-600"
+        >
+          LinkedIn
+        </Link>{" "}
+        for the latest news.{" "}
+      </>
+    ),
   },
   {
     question: "What about intellectual property?",

@@ -153,7 +153,11 @@ function SponsorCard({
       <p className={`text-gray-60 sm:text-left text-center mb-4 line-clamp-5 `}>
         {description}
       </p>
-      <a href={url} className="text-primary underline flex items-center">
+      <a
+        href={url}
+        className="text-primary underline flex items-center"
+        target="_blank"
+      >
         Visit Website
       </a>
     </div>

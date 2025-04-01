@@ -7,13 +7,13 @@ const HeroLander = () => {
   return (
     <div className="h-[45rem] min-h-[40rem] lg:h-screen bg-[#008FAD] relative overflow-hidden">
       <div className="z-10 flex flex-col gap-14 md:gap-12 items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-4">
-        <div className="flex flex-col gap-5 md:gap-6 items-center justify-center text-center">
+        <div className="flex flex-col gap-2 sm:gap-4 md:gap-6 items-center justify-center text-center">
           <h1 className="text-xl md:text-3xl lg:text-[30px] text-white font-medium">
             NATIONAL LEVEL HACKATHON
           </h1>
-          <div className="w-[100vw]">
+          <div className="w-[100vw] ">
             <svg
-              className="h-[4rem] md:h-[unset] svg-x w-full flex justify-center items-center"
+              className="h-[4rem] md:h-[unset] svg-x w-full flex justify-center items-center "
               width="100%"
               height="100%"
             >
@@ -24,7 +24,7 @@ const HeroLander = () => {
                 color="white"
                 textAnchor="middle"
                 fontSize="30"
-                className="text-[44px] md:text-[70px] lg:text-[90px] py-20 font-extrabold text-white"
+                className="text-[40px]  md:text-[70px] lg:text-[90px] py-20 font-extrabold text-white"
                 fill="white"
                 dominantBaseline="end"
               >
@@ -38,14 +38,21 @@ const HeroLander = () => {
           </h1>
         </div>
 
-        <Link href="https://forms.gle/aEWGMtuE9ukRQHtv7" target="_blank">
+        {/* <Link href="https://forms.gle/aEWGMtuE9ukRQHtv7" target="_blank">
           <button
             className="border-2 border-white text-lg text-white py-2 px-6 transition-all duration-300 ease-in-out cursor-pointer 
-  hover:bg-white hover:text-[#008FAD] hover:scale-105 rounded-md shadow-lg"
+  hover:bg-white hover:text-[#008FAD] hover:scale-105 rounded-md hover:shadow-lg shadow-md"
+            disabled
           >
-            Register Now
+            Registration Opening Soon
           </button>
-        </Link>
+        </Link> */}
+        <button
+          className="border-2 border-white text-lg  py-2 px-6 transition-all duration-300 ease-in-out  bg-gray-100 text-[#008FAD] rounded-md shadow-md"
+          disabled
+        >
+          Registration Opening Soon
+        </button>
       </div>
 
       {/* Background Images */}
