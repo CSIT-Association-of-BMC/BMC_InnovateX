@@ -23,13 +23,6 @@ export default function HackathonTracks() {
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 py-16">
             <TrackCard
               icon={
-                <Brain className="w-12 h-12 dark:text-[#0A9AAB] text-[#0A9AAB]" />
-              }
-              title="AI/ML"
-              description="Build innovative solutions using artificial intelligence and machine learning."
-            />
-            <TrackCard
-              icon={
                 <BookOpen className="w-12 h-12 dark:text-[#0A9AAB] text-[#0A9AAB]" />
               }
               title="Ed-tech"

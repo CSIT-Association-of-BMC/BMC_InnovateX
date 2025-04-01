@@ -16,14 +16,18 @@ export default function SchedulePage() {
           <div className="bg-gray-50 p-8 rounded-xl">
             <div className="space-y-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-32 font-semibold">TBA</div>
+                <div className="flex-shrink-0 w-32 font-semibold">
+                  19th Chaitra
+                </div>
                 <div>
                   <div className="font-semibold">Registration Opens</div>
                   <p className="text-gray-600">Registration period begins.</p>
                 </div>
               </div>
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-32 font-semibold">TBA</div>
+                <div className="flex-shrink-0 w-32 font-semibold">
+                  1st Jestha
+                </div>
                 <div>
                   <div className="font-semibold">Registration Closes</div>
                   <p className="text-gray-600">
@@ -78,13 +82,13 @@ export default function SchedulePage() {
             </h3>
             <div className="space-y-6">
               <div className="flex items-start bg-gray-50 p-4 rounded-lg">
-                <div className="flex-shrink-0 w-32 font-semibold">5:00 PM</div>
+                <div className="flex-shrink-0 w-32 font-semibold">6:00 PM</div>
                 <div>
                   <div className="font-semibold">
-                    Check-in for innovaters from !(Butwal){" "}
+                    Check-in for innovaters from outside of Rupandehi{" "}
                   </div>
                   <p className="text-gray-600">
-                    Particiapnts outside Butwal(or Rupandehi district) can check
+                    Participants outside Butwal(or Rupandehi district) can check
                     in at the venue one day prior to the event day.
                   </p>
                 </div>
@@ -175,7 +179,9 @@ export default function SchedulePage() {
               <div className="flex items-start bg-gray-50 p-4 rounded-lg">
                 <div className="flex-shrink-0 w-32 font-semibold">7:00 AM</div>
                 <div>
-                  <div className="font-semibold">Check Out for !(Butwal)</div>
+                  <div className="font-semibold">
+                    Check Out for participants outside Rupandehi
+                  </div>
                   <p className="text-gray-600">
                     Check out for participants outside Butwal(or Rupandehi
                     district)

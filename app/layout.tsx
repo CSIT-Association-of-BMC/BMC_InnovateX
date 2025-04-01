@@ -4,7 +4,7 @@ import "./globals.css";
 import Footer from "./component/Footer";
 import Navbar from "./component/Nav";
 import NextTopLoader from "nextjs-toploader";
-import { AdPopup } from "./component/AdPopup";
+// import { AdPopup } from "./component/AdPopup";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -13,7 +13,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://beta-innovatex.csitabmc.com/"),
+  metadataBase: new URL("https://innovatex.csitabmc.com/"),
   title: "BMC InnovateX | National Level Hackathon",
   description:
     "BMC InnovateX is a national-level hackathon organized by the CSIT Association of Butwal Multiple Campus, fostering innovation and creativity in technology.",
@@ -28,14 +28,12 @@ export const metadata: Metadata = {
     "innovation",
     "tech enthusiasts",
   ],
-  authors: [
-    { name: "BMC InnovateX", url: "https://beta-innovatex.csitabmc.com" },
-  ],
+  authors: [{ name: "BMC InnovateX", url: "https://innovatex.csitabmc.com" }],
   openGraph: {
     title: "BMC InnovateX | National Level Hackathon",
     description:
       "Join BMC InnovateX, a national-level hackathon by the CSIT Association of Butwal Multiple Campus",
-    url: "https://beta-innovatex.csitabmc.com",
+    url: "https://innovatex.csitabmc.com",
     siteName: "BMC InnovateX",
     images: [
       {
@@ -60,7 +58,7 @@ export default function RootLayout({
       <body className={`${poppins.className} antialiased`}>
         <Navbar />
         <NextTopLoader color="white" showSpinner={false} />
-        <AdPopup />
+        {/* <AdPopup /> */}
         {children}
         <Footer />
       </body>

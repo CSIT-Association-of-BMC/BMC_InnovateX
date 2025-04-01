@@ -49,7 +49,7 @@ export default async function Sponsors() {
             <div className="flex gap-8 mx-auto">
               <SponsorCard
                 name="Butwal Multiple Campus"
-                description="Butwal  Multiple Campus was established in 2030 B.S. This campus has been running four bachelors’ level programs in the faculties of Humanities, Science, Education, Management and M.Ed. (Nepali, EPM), MA (English, Nepali, Economics), MBS  to provide education to the educationally disadvantaged students, women, backward ethnic groups and others. The admission rate of the students is poor in humanities. Similarly, admission trend of students in education and management is also not as the expectation of the campus. We have been planning and trying hard, and experiencing some changes on the trend."
+                description="Butwal  Multiple Campus is a prominent educational institution located in Butwal, Rupandehi district, within the heart of Lumbini Provience. Established in 2030 B.S. (1973 A.D.), this campus was founded with the vision of providing affordable and quality higher education to students. Over the decades, it has earned a reputation for academic excellence and has become a preferred destination for students seeking higher education in various disciplines. The campus is affiliated with Tribhuvan University (TU), the oldest and most prestigious university in Nepal. Programs Offered BMC offers a wide range of programs in diverse fields, including humanities, management, education, and science. The campus provides both undergraduate and graduate-level courses, making it accessible to a broad spectrum of students. Popular programs include Bachelor of Science in Computer Science and Information Technology (B.Sc. CSIT), Bachelor of Business Administration (BBA), Bachelor of Business Studies (BBS), Bachelor of Education (B.Ed.), Bachelor of Arts (BA), Bachelor of Science (B.Sc.), and Master's programs in Education (M.Ed.) and Business Studies (MBS). "
                 logo="https://lmnstrirupgjxplzedki.supabase.co/storage/v1/object/public/sponsors//TU_Logo.jpg"
                 url="https://bumc.tu.edu.np/"
               />
@@ -133,7 +133,9 @@ function SponsorCard({
   className?: string;
 }) {
   return (
-    <div className={` ${className}`}>
+    <div
+      className={` flex flex-col justify-center sm:block items-center ${className}`}
+    >
       <Image
         width={200}
         height={200}
@@ -145,9 +147,17 @@ function SponsorCard({
         alt="TechCorp"
         className="h-25 w-40 object-contain rounded-md mb-4"
       />
-      <h3 className="text-xl font-semibold mb-2">{name}</h3>
-      <p className={`text-gray-600 mb-4 line-clamp-5 `}>{description}</p>
-      <a href={url} className="text-primary underline flex items-center">
+      <h3 className="text-xl sm:text-left text-center font-semibold mb-2">
+        {name}
+      </h3>
+      <p className={`text-gray-60 sm:text-left text-center mb-4 line-clamp-5 `}>
+        {description}
+      </p>
+      <a
+        href={url}
+        className="text-primary underline flex items-center"
+        target="_blank"
+      >
         Visit Website
       </a>
     </div>

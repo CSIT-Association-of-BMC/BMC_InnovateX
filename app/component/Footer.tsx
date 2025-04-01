@@ -25,14 +25,14 @@ const Footer = () => {
             <div className="bg-white/10 p-4 rounded-lg backdrop-blur-sm">
               <p className="text-gray-100 text-sm leading-relaxed">
                 <span className="font-semibold text-white">BMC InnovateX</span>{" "}
-                is a 48-hour hackathon organized by CSITABMC in collaboration
-                with Tilottama Municipality.
+                is a 48-hour national level hackathon, presented by Butwal
+                Multiple Campus and organized by CSIT Association of BMC.
               </p>
               <p className="text-gray-100 text-sm mt-2 leading-relaxed">
-                The event brings together innovators, developers, and
-                problem-solvers to create impactful tech solutions. Participants
-                will compete to develop prototypes, showcase their skills, and
-                win exciting prizes.
+                The "X" in InnovateX symbolizes multiplication of innovation,
+                encouraging participants to think beyond limits. The event
+                brings together students, developers, and innovators to
+                collaborate, build, and showcase groundbreaking solutions.
               </p>
             </div>
           </div>
@@ -134,7 +134,7 @@ const Footer = () => {
                 Email: innovatex@csitabmc.com
               </p>
               <p className="text-gray-100 text-sm mt-2">
-                Phone: +977-9869144346
+                Phone: +977-9841148149
               </p>
             </div>
           </div>
@@ -143,11 +143,10 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-gray-100">
           <p className="text-sm">
-            &copy; 2025{" "}
-            <span className="font-semibold">Innovation Unleashed</span>. All
-            rights reserved.
+            &copy; 2025 <span className="font-semibold">BMC InnovateX </span>.
+            All rights reserved.
           </p>
-          <p className="text-xs mt-2 opacity-80">Made with ❤️ by CSITABMC</p>
+          {/* <p className="text-xs mt-2 opacity-80">Made with ❤️ by CSITABMC</p> */}
         </div>
       </div>
     </footer>

@@ -17,9 +17,9 @@ export default function Prizes() {
 
         {/* Main Prizes */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          <MainPrizeCard value="₹50,000" label="First Prize" position="1" />
-          <MainPrizeCard value="₹30,000" label="Second Prize" position="2" />
-          <MainPrizeCard value="₹15,000" label="Third Prize" position="3" />
+          <MainPrizeCard value="Rs 50,000" label="First Prize" position="1" />
+          <MainPrizeCard value="Rs 30,000" label="Second Prize" position="2" />
+          <MainPrizeCard value="Rs 15,000" label="Third Prize" position="3" />
         </div>
 
         {/* Category Heading */}
@@ -35,8 +35,8 @@ export default function Prizes() {
 
         {/* Category Prizes */}
         <div className="flex flex-wrap justify-center items-center gap-6">
-          <CategoryCard value="₹7,500" category="Best AI/ML Solution" />
-          <CategoryCard value="₹5,000" category="Best Social Impact" />
+          <CategoryCard value="Rs 7,500" category="Best AI/ML Implementation" />
+          <CategoryCard value="Rs 5,000" category="Best Social Impact" />
         </div>
       </div>
     </section>
@@ -87,7 +87,7 @@ interface CategoryCardProps {
 function CategoryCard({ category, value }: CategoryCardProps) {
   return (
     <div
-      className={`rounded-xl p-8 flex flex-col items-center justify-center shadow-lg  transition-all duration-300 hover:shadow-xl hover:scale-105 relative overflow-hidden h-[260px] border-2 border-blue-100 hover:border-primary`}
+      className={`rounded-xl p-8 flex flex-col items-center justify-center shadow-lg  transition-all duration-300 hover:shadow-xl hover:scale-105 relative overflow-hidden h-[260px] border-2 border-blue-100 hover:border-primary w-[25rem]`}
       style={{
         background: `linear-gradient(to bottom, #008fad10, white)`,
       }}
@@ -98,7 +98,9 @@ function CategoryCard({ category, value }: CategoryCardProps) {
       <div className="mb-6 text-primary">
         <Award className="h-14 w-14" />
       </div>
-      <h3 className="text-2xl font-bold text-gray-800 mb-2">{category}</h3>
+      <h3 className="text-2xl font-bold text-gray-800 mb-2 text-center">
+        {category}
+      </h3>
       <p className="text-gray-600 font-semibold text-lg">{value}</p>
     </div>
   );
