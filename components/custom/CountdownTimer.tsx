@@ -11,7 +11,9 @@ const CountdownTimer = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date("2025-05-12T00:00:00");
+    const targetDate = new Date(
+      process.env.NEXT_PUBLIC_EVENT_DATE ?? "2025-05-30T00:00:00Z"
+    );
 
     const calculateTimeLeft = () => {
       const now = new Date();

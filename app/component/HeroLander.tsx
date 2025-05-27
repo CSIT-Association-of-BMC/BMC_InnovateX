@@ -1,7 +1,7 @@
 // import CountdownTimer from "@/components/custom/CountdownTimer";
+import CountdownTimer from "@/components/custom/CountdownTimer";
 import { LeftDots, RightDots } from "@/components/custom/Dots";
 import Image from "next/image";
-import Link from "next/link";
 
 const HeroLander = () => {
   return (
@@ -37,12 +37,7 @@ const HeroLander = () => {
             Think Big, Innovate Bigger
           </h1>
         </div>
-        <Link href="https://forms.gle/aEWGMtuE9ukRQHtv7" target="_blank">
-          <button className="border-2 border-white text-lg  py-2 px-6 transition-all duration-300 ease-in-out  bg-gray-100 text-[#008FAD] rounded-md shadow-md cursor-pointer">
-            Register now{" "}
-          </button>
-        </Link>
-        {/* <CountdownTimer /> */}
+        <CountdownTimer />
       </div>
 
       {/* Background Images */}
