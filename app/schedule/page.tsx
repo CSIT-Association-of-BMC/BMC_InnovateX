@@ -48,14 +48,18 @@ export default function SchedulePage() {
           <div className="bg-gray-50 p-8 rounded-xl">
             <div className="space-y-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-32 font-semibold">TBA</div>
+                <div className="flex-shrink-0 w-32 font-semibold">
+                  15th - 17th Jestha
+                </div>
                 <div>
                   <div className="font-semibold">Online Round</div>
                   <p className="text-gray-600">Selection of best 15 Teams.</p>
                 </div>
               </div>
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-32 font-semibold">TBA</div>
+                <div className="flex-shrink-0 w-32 font-semibold">
+                  18th Jestha
+                </div>
                 <div>
                   <div className="font-semibold">Reveled On-site Finalist</div>
                   <p className="text-gray-600">
@@ -101,6 +105,18 @@ export default function SchedulePage() {
               Day 1 - 25<sup>th</sup> Jestha
             </h3>
             <div className="space-y-6">
+              <div className="flex items-start bg-gray-50 p-4 rounded-lg">
+                <div className="flex-shrink-0 w-32 font-semibold">8:00 AM</div>
+                <div>
+                  <div className="font-semibold">
+                    Check In for BMC InnovateX{" "}
+                  </div>
+                  <p className="text-gray-600">
+                    All Participants can check in at the venue for BMC
+                    InnovateX.
+                  </p>
+                </div>
+              </div>
               <div className="flex items-start bg-gray-50 h-[20rem] p-4 rounded-lg">
                 <div className="flex h-full w-full flex-col items-center justify-center">
                   <div className="font-semibold">

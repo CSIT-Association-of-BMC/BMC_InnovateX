@@ -16,6 +16,13 @@ const sortedCategories = [
   "Silver Sponsor",
   "Bronze Sponsor",
   "Prize Sponsor",
+  "2nd Prize Sponsor",
+  "3rd Prize Sponsor",
+  "Category Prize Sponsor",
+  "Education Partner",
+  "Career Partner",
+  "Entertainment Partner",
+  "Travel Partner",
 ];
 const sortedSponsors: SponsorsTypes = {};
 
