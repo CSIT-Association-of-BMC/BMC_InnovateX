@@ -39,8 +39,10 @@ export default async function Sponsors() {
             </div>
           </div>
         </div>
-        <div className="mb-20 p-4 rounded-lg grid lg:grid-cols-2 gap-4">
-          <div className="bg-gray-50 col-span-2 p-4">
+
+        {/* BMC */}
+        <div className="mb-10 p-4 rounded-lg bg-gray-50 ">
+          <div className="p-4">
             <div className="text-center mb-8">
               <h3 className="inline-block text-xl font-semibold text-gray-700 px-6 py-2 bg-white rounded-full shadow-sm border border-gray-100">
                 Title Sponsor
@@ -55,7 +57,10 @@ export default async function Sponsors() {
               />
             </div>
           </div>
-          {/* <div className="bg-gray-50 p-4">
+        </div>
+        {/* grace */}
+        <div className="mb-10 p-4 rounded-lg bg-gray-50 ">
+          <div className="p-4">
             <div className="text-center mb-8">
               <h3 className="inline-block text-xl font-semibold text-gray-700 px-6 py-2 bg-white rounded-full shadow-sm border border-gray-100">
                 Powered By
@@ -63,13 +68,15 @@ export default async function Sponsors() {
             </div>
             <div className="flex gap-8 mx-auto">
               <SponsorCard
-                name="CSIT Association of BMC"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto dolorum ipsam ipsa ea, nihil exercitationem ut error mollitia quas dolor! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quasi fugit quam deleniti omnis nulla suscipit cupiditate cumque, et adipisici. Voluptatem quasi fugit quam deleniti omnis nulla suscipit cupiditate cumque, et adipisici elit. Voluptatem quasi fugit quam deleniti omnis nulla suscipit cupiditate cumque, et nesciunt.ng elit. Voluptatem quasi fugit quam deleniti omnis nulla suscipit cupiditate cumque, et adipisici. Voluptatem quasi fugit quam deleniti omnis nulla suscipit cupiditate cumque, et nesciunt."
-                url="#"
+                name="Grace International Butwal"
+                description="Established in 2006, Grace International, one of the leading and trusted educational service providers, was formed for the sole purpose of providing a comprehensive solution to students planning to pursue higher education from reputed universities and colleges in Australia, New Zealand, the USA, UK, Canada and many more countries. An acclaimed organization with over 25,000 students recruited all over the world, Grace International is synonymous with rightness and promptness in delivering convenient services at all our outlets in Australia, Nepal, India, Pakistan and Kenya. Our qualified and driven team emphasizes and believes in providing genuine and realistic solutions to our students. The organization stands for conviction, reliability, and unwavering commitment towards those students who aspire to pursue education and gain invaluable experience while studying abroad."
+                logo="https://lmnstrirupgjxplzedki.supabase.co/storage/v1/object/public/sponsors//Grace-Logo-white-768x257.png"
+                url="https://www.facebook.com/gracebutwal"
               />
             </div>
-          </div> */}
+          </div>
         </div>
+
         {/* Sponsor Section */}
         <div className="flex flex-wrap gap-4 ">
           {Object.keys(sponsors).map((sponsorname, i) => {
