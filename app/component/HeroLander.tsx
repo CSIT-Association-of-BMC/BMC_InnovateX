@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const HeroLander = () => {
   return (
-    <div className="h-[45rem] min-h-[40rem] lg:h-screen bg-[#008FAD] relative overflow-hidden">
+    <div className="max-h-[45rem]  min-h-[40rem]  lg:h-screen bg-[#008FAD] relative overflow-hidden">
       <div className="z-10 flex flex-col gap-14 md:gap-12 items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-4">
         <div className="flex flex-col gap-2 sm:gap-4 md:gap-6 items-center justify-center text-center">
           <h1 className="text-xl md:text-3xl lg:text-[30px] text-white font-medium">
@@ -41,55 +41,57 @@ const HeroLander = () => {
       </div>
 
       {/* Background Images */}
-      <div className="absolute bottom-18 left-15 hidden md:block">
-        <Image
-          src={
-            "https://res.cloudinary.com/dtr4vo1dy/image/upload/v1742566659/roundedrect1_gomv4w.png"
-          }
-          alt="mascot"
-          width={520}
-          height={100}
-        />
-      </div>
-      <div className="absolute bottom-40 left-[-140px] md:hidden">
-        <Image
-          src={
-            "https://res.cloudinary.com/dtr4vo1dy/image/upload/v1742566659/roundedrect1_gomv4w.png"
-          }
-          alt="mascot"
-          width={350}
-          height={100}
-        />
-      </div>
-      <div className="absolute bottom-0 left-[39%] hidden md:block">
-        <Image
-          src={
-            "https://res.cloudinary.com/dtr4vo1dy/image/upload/v1742566659/roundedrect2_jxg4iu.png"
-          }
-          alt="mascot"
-          width={500}
-          height={175}
-        />
-      </div>
-      <div className="absolute bottom-71 right-[26%] hidden md:block">
-        <Image
-          src={
-            "https://res.cloudinary.com/dtr4vo1dy/image/upload/v1742566659/roundedrect3_h6gjvc.png"
-          }
-          alt="mascot"
-          width={350}
-          height={100}
-        />
-      </div>
-      <div className="absolute bottom-0 right-0   md:bottom-20 md:right-0  md:block">
-        <Image
-          src={
-            "https://res.cloudinary.com/dtr4vo1dy/image/upload/v1742566659/roundedrect4_nmwu5q.png"
-          }
-          alt="mascot"
-          width={500}
-          height={175}
-        />
+      <div className="relative max-w-[1600px] m-auto h-full my-4 p-4">
+        <div className="absolute bottom-18 left-15 hidden md:block">
+          <Image
+            src={
+              "https://res.cloudinary.com/dtr4vo1dy/image/upload/v1742566659/roundedrect1_gomv4w.png"
+            }
+            alt="ribbons"
+            width={520}
+            height={100}
+          />
+        </div>
+        <div className="absolute bottom-40 left-[-140px] md:hidden">
+          <Image
+            src={
+              "https://res.cloudinary.com/dtr4vo1dy/image/upload/v1742566659/roundedrect1_gomv4w.png"
+            }
+            alt="ribbons"
+            width={350}
+            height={100}
+          />
+        </div>
+        <div className="absolute bottom-0 left-[39%] hidden md:block">
+          <Image
+            src={
+              "https://res.cloudinary.com/dtr4vo1dy/image/upload/v1742566659/roundedrect2_jxg4iu.png"
+            }
+            alt="ribbons"
+            width={500}
+            height={175}
+          />
+        </div>
+        <div className="absolute bottom-71 right-[26%] hidden md:block">
+          <Image
+            src={
+              "https://res.cloudinary.com/dtr4vo1dy/image/upload/v1742566659/roundedrect3_h6gjvc.png"
+            }
+            alt="ribbons"
+            width={350}
+            height={100}
+          />
+        </div>
+        <div className="absolute bottom-0 right-0 md:bottom-20 md:right-0  md:block">
+          <Image
+            src={
+              "https://lmnstrirupgjxplzedki.supabase.co/storage/v1/object/public/photos//ribbonBR.png"
+            }
+            alt="ribbons"
+            width={500}
+            height={175}
+          />
+        </div>
       </div>
       <div className="absolute bottom-0 right-0">
         <Image
