@@ -1,5 +1,4 @@
 // import CountdownTimer from "@/components/custom/CountdownTimer";
-import CountdownTimer from "@/components/custom/CountdownTimer";
 import { LeftDots, RightDots } from "@/components/custom/Dots";
 import Image from "next/image";
 
@@ -37,7 +36,9 @@ const HeroLander = () => {
             Think Big, Innovate Bigger
           </h1>
         </div>
-        <CountdownTimer />
+
+           {/* Event Timer */}
+       {/*  <CountdownTimer />*/}
       </div>
 
       {/* Background Images */}
